@@ -7,6 +7,7 @@ If sigmoids is chosen, then this is a multi label classification setting and the
 If softmax is chosen, then this is the multi class setting and the probability space is the 2-simplex.
 ![Decision boundary with intersecting lines and sigmoids](http://grv.overfit.xyz/lines.jpg)
 ![Decision boundary with intersecting lines and softmax](http://grv.overfit.xyz/softmax.jpg)
+![Decision boundary with intersecting circles and sigmoids](http://grv.overfit.xyz/circles.jpg)
 
 
 ### Requirements
