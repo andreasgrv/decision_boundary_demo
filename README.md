@@ -5,7 +5,8 @@ The visualisation shows the decision boundaries in 2d input space and how they m
 
 If sigmoids is chosen, then this is a multi label classification setting and the probability space is the unit cube.
 If softmax is chosen, then this is the multi class setting and the probability space is the 2-simplex.
-![Decision boundary with intersecting lines](http://grv.overfit.xyz/lines.jpg)
+![Decision boundary with intersecting lines and sigmoids](http://grv.overfit.xyz/lines.jpg)
+![Decision boundary with intersecting lines and softmax](http://grv.overfit.xyz/softmax.jpg)
 
 
 ### Requirements
