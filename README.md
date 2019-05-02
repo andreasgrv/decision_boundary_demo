@@ -1,10 +1,16 @@
 ## Neural network decision boundary visualisation
 
 This is a simple demo of 3-class classification using neural networks.
+Since the input is unrealistic, the classes are also unrealistic and classnames are used for color coding purposes (Fruit are a legend.).
 The visualisation shows the decision boundaries in 2d input space and how they map points in the input to 3d probability space.
 
-If sigmoids is chosen, then this is a multi label classification setting and the probability space is the unit cube.
-If softmax is chosen, then this is the multi class setting and the probability space is the 2-simplex.
+* If sigmoids is chosen, then this is a multi label classification setting and the probability space is the unit cube.
+* If softmax is chosen, then this is the multi class setting and the probability space is the 2-simplex.
+
+The 3d plot can be moved around and the 2d plot can be zoomed in/out by scrolling.
+Choose what class you want to change the decision boundary for from the radio buttons and click on the left plot to change its weights.
+
+## Snapshots
 ![Decision boundary with intersecting lines and sigmoids](http://grv.overfit.xyz/lines.jpg)
 ![Decision boundary with intersecting lines and softmax](http://grv.overfit.xyz/softmax.jpg)
 ![Decision boundary with intersecting circles and sigmoids](http://grv.overfit.xyz/circles.jpg)
