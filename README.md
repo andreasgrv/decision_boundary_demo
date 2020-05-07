@@ -17,14 +17,14 @@ If sigmoids is chosen, then this is interpreted as a multi-label classification 
 In this case therefore, there is a separate probability for each class being true, and we can visualise these three probabilities as
 a (x, y, z) point constrained to be in the unit cube (as seen below on the right).
 
-![Decision boundary with intersecting lines and sigmoids](http://grv.overfit.xyz/lines.jpg)
+![Decision boundary with intersecting lines and sigmoids](http://grv.overfit.xyz/static/images/lines.jpg)
 
 If softmax is chosen, then classes are mutually exclusive (the score for each class is normalized to form a probability distribution over all classes).
 Therefore, the probability of each class for each input point is constrained to be a (x, y, z) point on the 2-simplex (as seen below).
-![Decision boundary with intersecting lines and softmax](http://grv.overfit.xyz/softmax.jpg)
+![Decision boundary with intersecting lines and softmax](http://grv.overfit.xyz/static/images/softmax.jpg)
 
 If we also choose circle from the first radio button, we augment the input using basis functions so that we get circular decision boundaries.
-![Decision boundary with intersecting circles and sigmoids](http://grv.overfit.xyz/circles.jpg)
+![Decision boundary with intersecting circles and sigmoids](http://grv.overfit.xyz/static/images/circles.jpg)
 
 
 ### Requirements
